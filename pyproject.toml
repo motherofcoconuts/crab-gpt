@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "crab-gpt"
+version = "0.1.0"
+description = "We make dem crab people snappy and clappy."
+authors = ["Ryan Houlihan <ryan@batontrucking.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "crab_gpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.0.1"
+jupyter = "^1.0.0"
+numpy = "^1.24.3"
+black = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
